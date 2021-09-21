@@ -20,7 +20,8 @@ add_action('add_meta_boxes', 'initialisation_metaboxes');
  * render metaboxe date cours html
  * 
  */
-function addCoursDateMeta($post) {
+function addCoursDateMeta($post)
+{
 
     $val = get_post_meta($post->ID, 'dateCours', true);
     echo '<label for="cours_date">Date du cours : </label>';
@@ -32,14 +33,16 @@ function addCoursDateMeta($post) {
  * render metaboxe price cours html
  * 
  */
-function addCoursPriceMeta($post) {
+function addCoursPriceMeta($post)
+{
 
     $val = get_post_meta($post->ID, 'priceCours', true);
     echo '<label for="price_cours">prix du cours : </label>';
     echo "<input type='text' name='price_cours' placeholder='Prix du cours' value='$val' required>";
 }
 
-function show_meta_date() {
+function show_meta_date()
+{
     ob_start();
     $date = get_post_meta(get_the_ID(), 'dateCours', true);
     echo 'Séance prévue le ';

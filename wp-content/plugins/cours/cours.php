@@ -14,9 +14,9 @@ License: GPLv2 or later
 Text Domain: local
 */
 
-define('cours__plugin__meta',plugin_dir_path(__FILE__) . 'meta/');
-define('cours__plugin__classes',plugin_dir_path(__FILE__) . 'classes/');
-define('cours__plugin__helpers',plugin_dir_path(__FILE__) . 'helpers/');
+define('cours__plugin__meta', plugin_dir_path(__FILE__) . 'meta/');
+define('cours__plugin__classes', plugin_dir_path(__FILE__) . 'classes/');
+define('cours__plugin__helpers', plugin_dir_path(__FILE__) . 'helpers/');
 
 
 /**
@@ -55,24 +55,24 @@ function cours_init()
         'type',
         'cours',
         array(
-          'label' => 'Type',
-          'labels' => array(
-          'name' => 'Cours',
-          'singular_name' => 'Cours',
-          'all_items' => 'Tous les Cours',
-          'edit_item' => 'Éditer le Cours',
-          'view_item' => 'Voir le Cours',
-          'update_item' => 'Mettre à jour le Cours',
-          'add_new_item' => 'Ajouter un Cours',
-          'new_item_name' => 'Nouveau Cours',
-          'search_items' => 'Rechercher parmi les Cours',
-          'popular_items' => 'Cours les plus utilisés'
-        ),
-        'hierarchical' => true
+            'label' => 'Type',
+            'labels' => array(
+                'name' => 'Cours',
+                'singular_name' => 'Cours',
+                'all_items' => 'Tous les Cours',
+                'edit_item' => 'Éditer le Cours',
+                'view_item' => 'Voir le Cours',
+                'update_item' => 'Mettre à jour le Cours',
+                'add_new_item' => 'Ajouter un Cours',
+                'new_item_name' => 'Nouveau Cours',
+                'search_items' => 'Rechercher parmi les Cours',
+                'popular_items' => 'Cours les plus utilisés'
+            ),
+            'hierarchical' => true
         )
     );
     register_post_type('cours', $args);
-    register_taxonomy_for_object_type( 'type', 'cours' );
+    register_taxonomy_for_object_type('type', 'cours');
 }
 add_action('init', 'cours_init');
 
@@ -80,6 +80,3 @@ require_once(cours__plugin__helpers . 'admin.php');
 require_once(cours__plugin__helpers . 'database.php');
 require_once(cours__plugin__helpers . 'forms.php');
 require_once(cours__plugin__meta . 'metaboxes.php');
-
-
-

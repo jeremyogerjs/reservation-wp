@@ -37,8 +37,8 @@ function add_plugin_to_admin()
         echo "</div>";
     }
 
-    add_menu_page('Cours', 'Cours', 'manage_options', 'cours-plugin', 'cours_content','dashicons-list-view');
-    add_menu_page('Contacts', 'Contacts', 'manage_options', 'cours-contact-plugin', 'contact_content','dashicons-format-status');
+    add_menu_page('Cours', 'Cours', 'manage_options', 'cours-plugin', 'cours_content', 'dashicons-list-view');
+    add_menu_page('Contacts', 'Contacts', 'manage_options', 'cours-contact-plugin', 'contact_content', 'dashicons-format-status');
 }
 add_action('admin_menu', 'add_plugin_to_admin');
 
