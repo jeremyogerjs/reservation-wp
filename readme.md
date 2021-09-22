@@ -4,6 +4,18 @@ Wordpress >= V5.8.1
 Site optimum : http://jeremy.devweb.cfa.nc/optimum/  
 Ce projet a été réalisé sur le CMS wordpress en développant un plugin from scratch et a partir d'un théme deja développé en raison du peu de temps a disposition.
 
+## Guide d'installation local
+Pour installer le plugin rien de plus simple :
+- Cloner le repo `git clone https://github.com/cfa-devweb/ecf-6-oger.git` dans le dossier de votre choix
+- Remplacer le dossier wp-content de votre wordpress par celui cloné juste avant
+- Activez le plugin du nom de `panel sport courses`
+- Activez le theme du nom de `Real-Fitness` qui est celui par défault ou celui que vous souhaitez
+- Lancer votre serveur local(xampp,lampp,laragon) ou celui que vous utilisez
+- Pour vous authentifier rendez vous a l'url suivante en ramplacant nomdudossier par celui de votre dossier `http://localhost/{nomdudossier}/wp-admin`
+- Accés a l'admin : 
+- username: admin123
+- password: admin123
+
 ## Cahier des charges
 
 #### Demande client
@@ -28,7 +40,7 @@ Le maquettage a été réalisé sur l'application mockflow donc voici le lien de
 
 Au niveau de la sécurité j'ai suivi ce tuto : [ici](https://www.codeur.com/tuto/wordpress/proteger-wordpress-attaques/#2_utiliser_des_identifiants_de_connexion_complexes)
 
-Accés a l'admin :  
+Accés a l'admin distant :  
 username: jeremscript  
 password: %ckPhOe9(QPP%Z$cj%jSMrUB
 
