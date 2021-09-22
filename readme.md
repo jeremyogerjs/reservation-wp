@@ -21,3 +21,18 @@ Voici une liste des besoins fonctionnels qui en ressort de la demande client :
 #### Maquettage
 
 Le maquettage a été réalisé sur l'application mockflow donc voici le lien des maquettes : https://wireframepro.mockflow.com/view/Md697f9fc54ffa2cd99f605fb9f79dfc61622767784177
+
+
+#### Sécurité
+
+Au niveau de la sécurité j'ai suivi ce tuto : [ici](https://www.codeur.com/tuto/wordpress/proteger-wordpress-attaques/#2_utiliser_des_identifiants_de_connexion_complexes)
+
+Voici la liste des actions effectué :
+- protection du fichier .htaccess
+- protection du fichier wp-config.php
+- masquer la version wordpress
+- changement de l'utilisateur admin par défault de wordpress
+- changement de l'url de connexion a l'admin
+- enlever les rapport d'erreur générer par php
+- rendre le message d'erreur en console plus général
+- limiter le nombre de tentative de connexion au panel administrateur
