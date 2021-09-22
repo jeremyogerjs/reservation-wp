@@ -47,7 +47,7 @@ function cours_form()
         echo "<div class='d-flex mb-3'>";
             echo "<div class='mr-3'>";
                 echo "<label class='form-label' for='phone' > Votre telephone</label>";
-                echo "<input class='form-control' type='text' name='phone' placeholder='Votre téléphone' style='width:100%' required>";
+                echo "<input class='form-control' type='text' name='phone' placeholder='tel(nc uniquement)' pattern='[0-9]{6}' style='width:100%' required>";
             echo "</div>";
             echo "<div>";
                 echo "<label class='form-label' for='email'>Votre email</label>";
@@ -102,7 +102,7 @@ function contact_form()
         
         echo "<div class='d-flex mb-3'>";
             echo "<div class='mr-3'>";
-                echo "<input class='form-control' type='tel' name='phone' placeholder='Numéro de téléphone' style='width:100%' required>";
+                echo "<input class='form-control' type='tel' name='phone' placeholder='tel(nc uniquement)' pattern='[0-9]{6}' style='width:100%' required>";
             echo "</div>";
             echo "<div>";
                 echo "<input class='form-control' type='email' name='email' placeholder='Votre email' style='width:100%' required>";
@@ -157,7 +157,7 @@ function abonnement_form() {
         
         echo "<div class='d-flex mb-3'>";
             echo "<div class='mr-3'>";
-                echo "<input class='form-control' type='tel' name='phone' placeholder='Numéro de téléphone' style='width:100%' required>";
+                echo "<input class='form-control' type='tel' name='phone' placeholder='tel(nc uniquement)' pattern='[0-9]{6}' style='width:100%' required>";
             echo "</div>";
             echo "<div>";
                 echo "<input class='form-control' type='email' name='email' placeholder='Votre email' style='width:100%' required>";

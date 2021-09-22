@@ -127,3 +127,5 @@ function real_fitness_the_custom_logo() {
 	}
 }
 endif;
+
+remove_action("wp_head", "wp_generator");

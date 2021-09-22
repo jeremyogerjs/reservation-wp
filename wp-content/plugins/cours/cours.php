@@ -78,5 +78,14 @@ add_action('init', 'cours_init');
 
 require_once(cours__plugin__helpers . 'admin.php');
 require_once(cours__plugin__helpers . 'database.php');
+
+function init_database()
+{
+    cours_database();
+    abonnement_database();
+    contact_database();
+}
+register_activation_hook(__FILE__, 'init_database');
+
 require_once(cours__plugin__helpers . 'forms.php');
 require_once(cours__plugin__meta . 'metaboxes.php');

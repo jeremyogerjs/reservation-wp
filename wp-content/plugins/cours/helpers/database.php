@@ -79,4 +79,3 @@ function abonnement_database()
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
     dbDelta($sql);
 }
-register_activation_hook(__FILE__, 'abonnement_database');

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * 
  * metabox
@@ -13,8 +12,6 @@ function initialisation_metaboxes()
     add_meta_box('cours_price', 'Prix du cours', 'addCoursPriceMeta', 'cours', 'side', 'core');
 }
 add_action('add_meta_boxes', 'initialisation_metaboxes');
-
-
 /**
  * 
  * render metaboxe date cours html
