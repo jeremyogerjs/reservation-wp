@@ -27,7 +27,9 @@ Le maquettage a été réalisé sur l'application mockflow donc voici le lien de
 #### Sécurité
 
 Au niveau de la sécurité j'ai suivi ce tuto : [ici](https://www.codeur.com/tuto/wordpress/proteger-wordpress-attaques/#2_utiliser_des_identifiants_de_connexion_complexes)
-
+Accés a l'admin :
+username: jeremscript
+password: %ckPhOe9(QPP%Z$cj%jSMrUB
 Voici la liste des actions effectué :
 - protection du fichier .htaccess
 - protection du fichier wp-config.php
