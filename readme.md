@@ -36,4 +36,5 @@ Voici la liste des actions effectué :
 - changement de l'url de connexion a l'admin
 - enlever les rapport d'erreur générer par php
 - rendre le message d'erreur en console plus général
-- limiter le nombre de tentative de connexion au panel administrateur
+- limiter le nombre de tentative de connexion au panel administrateur(extension wps limit login)
+- changer l'url de connexion(extension wps hide login)
