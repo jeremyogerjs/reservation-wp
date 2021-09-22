@@ -10,7 +10,7 @@
 <div id="footer">
   <div class="copywrap text-center">
     <div class="container">
-      <p class="mb-0"><?php echo esc_html(get_theme_mod('real_fitness_copyright_line',__('Fitness WordPress Theme','real-fitness'))); ?></p>
+      <p class="mb-0">Optimum fitness park All right reserved <?php echo date("Y") ?></p>
     </div>
   </div>
 </div>
