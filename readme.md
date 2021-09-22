@@ -1,6 +1,7 @@
 # ecf-6 Optimum
 Wordpress >= V5.8.1
 
+Site optimum : http://jeremy.devweb.cfa.nc/optimum/  
 Ce projet a été réalisé sur le CMS wordpress en développant un plugin from scratch et a partir d'un théme deja développé en raison du peu de temps a disposition.
 
 ## Cahier des charges
