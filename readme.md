@@ -28,6 +28,10 @@ Le maquettage a été réalisé sur l'application mockflow donc voici le lien de
 
 Au niveau de la sécurité j'ai suivi ce tuto : [ici](https://www.codeur.com/tuto/wordpress/proteger-wordpress-attaques/#2_utiliser_des_identifiants_de_connexion_complexes)
 
+Accés a l'admin :
+username: jeremscript  
+password: %ckPhOe9(QPP%Z$cj%jSMrUB
+
 Voici la liste des actions effectué :
 - protection du fichier .htaccess
 - protection du fichier wp-config.php
@@ -36,4 +40,5 @@ Voici la liste des actions effectué :
 - changement de l'url de connexion a l'admin
 - enlever les rapport d'erreur générer par php
 - rendre le message d'erreur en console plus général
-- limiter le nombre de tentative de connexion au panel administrateur
+- limiter le nombre de tentative de connexion au panel administrateur(extension wps limit login)
+- changer l'url de connexion(extension wps hide login)
