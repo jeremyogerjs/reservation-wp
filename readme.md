@@ -12,7 +12,7 @@ Pour installer le plugin rien de plus simple :
 - Activez le theme du nom de `Real-Fitness` qui est celui par défault ou celui que vous souhaitez
 - Lancer votre serveur local(xampp,lampp,laragon) ou celui que vous utilisez
 - Pour vous authentifier rendez vous a l'url suivante en ramplacant nomdudossier par celui de votre dossier `http://localhost/{nomdudossier}/wp-admin`
-- Accés a l'admin : 
+- Accès a l'admin : 
 - username: admin123
 - password: admin123
 
@@ -29,7 +29,7 @@ Voici une liste des besoins fonctionnels qui en ressort de la demande client :
 - Les utilisateurs pourront réserver les cours(particuliers et collectifs), les séances(yoga) et aussi s'abonner a la salle de sport (mensuel ou annuel).
 - Les utilisateurs pourront découvrir la salle de sport aux travers de photos et descriptions de la salle de sport.
 - Les utilisateurs pourront parcourir le site sur tout les supports numérique (ordinateur,téléphone et tablette).
-- Les employers auront accés a la liste des participants pour chaque cours et séance organiser par Optimum pour verifier leur identité.
+- Les employers auront accès a la liste des participants pour chaque cours et séance organiser par Optimum pour verifier leur identité.
 
 #### Maquettage
 
@@ -40,7 +40,7 @@ Le maquettage a été réalisé sur l'application mockflow donc voici le lien de
 
 Au niveau de la sécurité j'ai suivi ce tuto : [ici](https://www.codeur.com/tuto/wordpress/proteger-wordpress-attaques/#2_utiliser_des_identifiants_de_connexion_complexes)
 
-Accés a l'admin distant :  
+Accès a l'admin distant :  
 username: jeremscript  
 password: %ckPhOe9(QPP%Z$cj%jSMrUB
 
