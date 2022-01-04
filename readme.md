@@ -6,7 +6,7 @@ Ce projet a été réalisé sur le CMS wordpress en développant un plugin from 
 
 ## Guide d'installation local
 Pour installer le plugin rien de plus simple :
-- Cloner le repo `git clone https://github.com/cfa-devweb/ecf-6-oger.git` dans le dossier de votre choix
+- Cloner le repo `git clone https://github.com/jeremyogerjs/reservation-wp.git` dans le dossier de votre choix
 - Remplacer le dossier wp-content de votre wordpress par celui cloné juste avant
 - Activez le plugin du nom de `panel sport courses`
 - Activez le theme du nom de `Real-Fitness` qui est celui par défault ou celui que vous souhaitez
