@@ -14,7 +14,7 @@ Pour installer le plugin rien de plus simple :
 - Pour vous authentifier rendez vous a l'url suivante en ramplacant nomdudossier par celui de votre dossier `http://localhost/{nomdudossier}/wp-admin`
 - Accès a l'admin : 
 - username: admin123
-- password: admin123
+- password: admin123 
 
 ## Cahier des charges
 
